@@ -39,8 +39,8 @@ const brickCalculator = function (flor) {
     }
     else {
         const fst10 = 15000 * 10;
-        const snd20 = 12000 * 20;
-        const moreFlor = 10000 * (flor - 20)
+        const snd20 = 12000 * 10;
+        const moreFlor = 10000 * (flor - 20);
         bricks = fst10 + snd20 + moreFlor;
     }
     return bricks;
@@ -64,6 +64,6 @@ const tinyFriend = function (names) {
 }
 
 const friendNames = ['Siam', 'Kabir', 'Khushnobish', 'Aronno', 'Mhamud'];
-const smailName = friendNames[tinyFriend(friendNames)];
-console.log("Smail Name : " + smailName);
+const smallName = friendNames[tinyFriend(friendNames)];
+console.log("Small Name : " + smallName);
 
